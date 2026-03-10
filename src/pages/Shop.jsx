@@ -24,7 +24,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import API_BASE_URL from '../config';
 import { cn } from '../lib/utils';
 
-import bannerImg from "@/assets/bannerr/shopbanner.jpg";
+import bannerImg from "@/assets/bannerr/banner2.jpg";
 
 export default function Shop() {
   const { addToCart, toggleWishlist, isInWishlist } = useCart();

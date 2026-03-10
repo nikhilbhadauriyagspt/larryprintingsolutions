@@ -133,14 +133,7 @@ export default function Hero() {
                          </button>
                       </Link>
 
-                      <div className="flex items-center gap-4 px-6 h-16 bg-white/10 border border-white/20 rounded-none">
-                         <div className="h-10 w-10 flex items-center justify-center p-2 bg-white rounded-none">
-                            <img src="/brands/hp.png" alt="HP" className="w-full h-full object-contain" />
-                         </div>
-                         <div className="flex flex-col">
-                            <span className="text-[11px] font-black text-white uppercase tracking-tight">Authorized HP Partner</span>
-                         </div>
-                      </div>
+                     
                    </div>
                 </motion.div>
              </div>

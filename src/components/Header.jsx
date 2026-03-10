@@ -189,10 +189,7 @@ export default function Header() {
               <Link to="/" className="block">
                 <img src="/logo/MYPRINTERMAN.png" alt="MYPRINTERMAN" className="h-14 w-auto object-contain" />
               </Link>
-              <div className="hidden sm:flex flex-col justify-center border-l border-slate-200 pl-6 h-12">
-                <span className="text-[8px] font-black text-slate-400 uppercase tracking-widest">A Subsidiary of</span>
-                <span className="text-[10px] font-black text-slate-900 uppercase tracking-tight mt-0.5">PrimeFix Solutions</span>
-              </div>
+              
             </div>
 
             {/* CENTER SEARCH WITH SUGGESTIONS */}
@@ -282,14 +279,7 @@ export default function Header() {
 
             {/* ACTIONS & HP BADGE */}
             <div className="flex items-center gap-3">
-              <div className="hidden min-[1200px]:flex items-center gap-3 px-4 py-2 bg-slate-50 border border-slate-200 rounded-none mr-2">
-                 <div className="h-10 w-10 flex items-center justify-center p-2 bg-white border border-slate-100">
-                    <img src="/brands/hp.png" alt="HP" className="w-full h-full object-contain" />
-                 </div>
-                 <div className="flex flex-col">
-                    <span className="text-[10px] font-black text-slate-900 uppercase leading-none">Authorized HP Partner</span>
-                 </div>
-              </div>
+             
 
               <div className="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl">
                 <Link to="/wishlist" className="h-10 w-10 flex items-center justify-center rounded-lg text-slate-600 hover:bg-white hover:text-red-500 hover:shadow-sm transition-all relative">
@@ -691,7 +681,7 @@ export default function Header() {
                         <button onClick={handleLogout} className="w-full flex items-center gap-4 px-4 py-4 text-[11px] font-black uppercase tracking-widest text-red-500 hover:bg-red-50 rounded-xl"><LogOut size={18} /> Terminate Session</button>
                      </div>
                    ) : (
-                     <Link to="/login" onClick={() => setIsSidebarOpen(false)} className="flex items-center gap-4 px-4 py-4 bg-blue-600 text-white rounded-xl text-[11px] font-black uppercase tracking-widest shadow-lg shadow-blue-600/20"><User size={18} /> Authorized Login</Link>
+                     <Link to="/login" onClick={() => setIsSidebarOpen(false)} className="flex items-center gap-4 px-4 py-4 bg-blue-600 text-white rounded-xl text-[11px] font-black uppercase tracking-widest shadow-lg shadow-blue-600/20"><User size={18} /> Secure Login</Link>
                    )}
                 </div>
               </div>

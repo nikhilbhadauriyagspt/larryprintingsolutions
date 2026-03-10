@@ -92,22 +92,7 @@ export default function Contact() {
               <h4 className="text-lg font-black text-slate-900 leading-tight group-hover:text-blue-600 transition-colors">4664 Cleveland Ave, Columbus <br/> OH 43231, USA</h4>
             </div>
 
-            <div className="p-8 bg-slate-900 text-white relative overflow-hidden border border-slate-800">
-              <div className="absolute top-0 right-0 p-6 opacity-10">
-                 <ShieldCheck size={80} strokeWidth={1} />
-              </div>
-              <div className="relative z-10 flex flex-col items-center text-center py-4">
-                <div className="h-16 w-16 bg-white rounded-none flex items-center justify-center mb-6">
-                   <img src="/brands/hp.png" alt="HP" className="h-8 w-auto object-contain" />
-                </div>
-                <h4 className="text-lg font-black uppercase tracking-tighter leading-none mb-2">
-                  AUTHORIZED <span className="text-blue-400 italic">PARTNER.</span>
-                </h4>
-                <div className="flex items-center gap-2 text-[8px] font-black uppercase tracking-widest text-blue-400 bg-white/5 px-4 py-2 border border-white/10 mt-4">
-                   <CheckCircle2 size={10} strokeWidth={3} /> Verified Merchant
-                </div>
-              </div>
-            </div>
+            
           </div>
 
           {/* --- CONTACT FORM --- */}

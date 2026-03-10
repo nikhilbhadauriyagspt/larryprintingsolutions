@@ -85,7 +85,7 @@ export default function Home() {
     <div className="bg-white font-snpro overflow-x-hidden text-slate-900">
       <SEO 
         title="MyPrinterMan | Premium Printers & Hardware" 
-        description="Premium destination for authorized HP printers, and essential accessories. Delivering excellence in tech solutions across the USA."
+        description="Premium destination for professional printers, and essential accessories. Delivering excellence in tech solutions across the USA."
       />
       
       <Hero />

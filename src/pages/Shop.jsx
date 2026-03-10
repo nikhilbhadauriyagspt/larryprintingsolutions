@@ -24,6 +24,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import API_BASE_URL from '../config';
 import { cn } from '../lib/utils';
 
+import bannerImg from "@/assets/bannerr/shopbanner.jpg";
+
 export default function Shop() {
   const { addToCart, toggleWishlist, isInWishlist } = useCart();
   const [addedItems, setAddedItems] = useState({});
@@ -127,8 +129,29 @@ export default function Shop() {
         description="Browse our selection of professional printing solutions."
       />
       
+      {/* --- TOP BANNER --- */}
+      <div className="pt-20 lg:pt-24 relative overflow-hidden h-[300px] lg:h-[400px] group">
+        <div className="absolute inset-0 bg-slate-900 z-10">
+          <img 
+            src={bannerImg} 
+            alt="Shop Banner" 
+            className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-1000"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/20 to-transparent" />
+        </div>
+        <div className="absolute inset-0 z-20 flex items-center justify-center">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-center"
+            >
+              
+            </motion.div>
+        </div>
+      </div>
+
       {/* --- PAGE HEADER --- */}
-      <div className="pt-48 pb-20 px-6 md:px-10 lg:px-16 bg-white relative overflow-hidden">
+      <div className="py-20 px-6 md:px-10 lg:px-16 bg-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-[40%] h-full bg-blue-50/50 blur-[120px] rounded-full pointer-events-none" />
         
         <div className="max-w-[1920px] mx-auto relative z-10">

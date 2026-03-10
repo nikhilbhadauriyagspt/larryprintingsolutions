@@ -103,7 +103,7 @@ export default function CategorySlider({ title, subtitle, products = [], bgColor
                     {/* Content */}
                     <div className="flex-1 p-8 border-t border-slate-50 flex flex-col">
                       <span className="text-[10px] font-black text-blue-600 uppercase tracking-widest mb-2">
-                        {p.brand_name || 'Authorized'}
+                        {p.brand_name || 'Authentic'}
                       </span>
 
                       <Link to={`/product/${p.slug}`} className="flex-1">

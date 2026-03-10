@@ -77,7 +77,7 @@ export default function QuickPicks({ products = [] }) {
                   
                   <div className="flex-1 flex flex-col pt-6 border-t border-slate-50">
                     <div className="flex items-center justify-between mb-2">
-                       <span className="text-[10px] font-black text-blue-600 uppercase tracking-widest">{p.brand_name || 'Authorized'}</span>
+                       <span className="text-[10px] font-black text-blue-600 uppercase tracking-widest">{p.brand_name || 'Authentic'}</span>
                     </div>
                     <h4 className="text-lg font-black text-slate-900 capitalize tracking-tight line-clamp-2 group-hover:text-blue-600 transition-colors leading-tight mb-4">{p.name.toLowerCase()}</h4>
                     

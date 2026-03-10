@@ -9,7 +9,7 @@ import {
 const features = [
   {
     icon: <ShieldCheck size={28} />,
-    title: "Official Support",
+    title: "Expert Support",
     desc: "We are here to help you with anything you need for your printing tools.",
     accent: "blue"
   },

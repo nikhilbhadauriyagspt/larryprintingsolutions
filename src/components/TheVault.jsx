@@ -83,7 +83,7 @@ export default function TheVault({ products = [] }) {
                     <div className="flex-1 flex flex-col pt-2">
                       <div className="flex items-center gap-2 mb-3">
                          <Box size={12} className="text-blue-600" />
-                         <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">{p.brand_name || 'Authorized'}</span>
+                         <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">{p.brand_name || 'Authentic'}</span>
                       </div>
                       <h4 className="text-[15px] font-black text-slate-900 uppercase tracking-tighter line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors mb-2">{p.name}</h4>
                       

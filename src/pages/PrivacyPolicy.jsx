@@ -282,7 +282,7 @@ export default function PrivacyPolicy() {
       <p>If you have questions or comments about this notice, you may email us at <a href="mailto:info@myprinterman.com">info@myprinterman.com</a> or contact us by post at:</p>
       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 my-8 not-prose">
         <address className="not-italic text-slate-700 font-bold leading-relaxed">
-                     My PrinterMan <br />          Authorised HP Partner<br />
+                     My PrinterMan <br />          <br />
                      4664 Cleveland Ave<br />
                      Columbus, OH 43231<br />          United States
         </address>

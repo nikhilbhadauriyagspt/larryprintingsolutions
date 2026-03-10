@@ -156,7 +156,7 @@ export default function CookiePolicy() {
       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 my-8 not-prose">
         <address className="not-italic text-slate-700 font-bold leading-relaxed space-y-2 uppercase tracking-tighter">
           <p className="text-slate-900 font-black">My PrinterMan</p>
-          <p>Authorised HP Partner</p>
+          <p></p>
           <p>4664 Cleveland Ave</p>
           <p>Columbus, OH 43231</p>
           <p>United States</p>

@@ -63,25 +63,15 @@ export default function Footer() {
           <div className="lg:col-span-5 space-y-10">
             <Link to="/" className="flex items-center gap-6 group">
               <img src="/logo/MYPRINTERMAN.png" alt="MYPRINTERMAN" className="h-16 w-auto object-contain" />
-              <div className="h-12 w-px bg-slate-200" />
-              <div className="flex flex-col justify-center">
-                <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">A Subsidiary of</span>
-                <span className="text-[11px] font-black text-slate-900 uppercase tracking-tight mt-0.5">PrimeFix Solutions</span>
-              </div>
+              
+             
             </Link>
             
             <p className="text-slate-500 text-lg md:text-xl font-medium leading-relaxed max-w-md border-l-2 border-slate-100 pl-8">
               We provide the best printing tools and professional help to make your workplace run perfectly every day.
             </p>
 
-            <div className="flex flex-wrap gap-4">
-               <div className="flex items-center gap-4 px-6 py-3 border border-slate-100 bg-slate-50">
-                  <div className="h-10 w-10 flex items-center justify-center p-2 bg-white border border-slate-100">
-                    <img src="/brands/hp.png" alt="HP" className="w-full h-full object-contain" />
-                  </div>
-                  <span className="text-[10px] font-black uppercase tracking-widest text-slate-900">Authorized HP Partner</span>
-               </div>
-            </div>
+           
           </div>
 
           <div className="lg:col-span-7 flex items-center">
@@ -202,7 +192,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10 text-[10px] font-black tracking-[0.2em] uppercase text-slate-400">
             <span>© 2026 MYPRINTERMAN | ALL RIGHTS RESERVED.</span>
             <span className="hidden md:block h-4 w-px bg-slate-100" />
-            <span>A SUBSIDIARY OF PRIMEFIX SOLUTIONS LLC</span>
+          
           </div>
 
           <div className="flex items-center gap-10 grayscale opacity-50 hover:opacity-100 hover:grayscale-0 transition-all duration-500">

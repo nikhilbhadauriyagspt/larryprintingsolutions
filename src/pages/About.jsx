@@ -10,8 +10,8 @@ export default function About() {
   return (
     <div className="bg-white min-h-screen font-urbanist overflow-hidden">
       <SEO 
-        title="About Us | MyPrinterMan" 
-        description="Learn about MyPrinterMan, our mission to provide the best printing solutions, and our commitment as an authorized HP partner."
+        title="About Us" 
+        description="Learn about MyPrinterMan, our mission to provide the best printing solutions, and our commitment as a premium hardware specialist."
       />
 
       {/* --- COMPACT HERO SECTION --- */}
@@ -24,12 +24,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="lg:col-span-7 space-y-8"
           >
-            <div className="flex items-center gap-3">
-               <div className="flex items-center gap-2 px-4 py-2 bg-slate-900 text-white shadow-md">
-                  <img src="/brands/hp.png" alt="HP" className="h-4 w-auto object-contain brightness-200" />
-                  <span className="text-[9px] font-black uppercase tracking-[0.2em]">Authorized Partner</span>
-               </div>
-            </div>
+        
 
             <h1 className="text-5xl md:text-6xl lg:text-8xl font-black text-slate-950 leading-[0.9] tracking-tight flex flex-col">
               <span className="capitalize">Better Printing</span>

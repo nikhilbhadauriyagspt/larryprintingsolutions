@@ -285,8 +285,8 @@ export default function PrivacyPolicy() {
       <p>If you have questions or comments about this notice, you may email us at <a href="mailto:info@larryprintingsolutions.shop">info@larryprintingsolutions.shop</a> or contact us by post at:</p>
       <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 my-8 not-prose">
         <address className="not-italic text-slate-700 font-bold leading-relaxed">
-                     Larry Printing Solutions <br/>
-                    3106 E Camelback Rd, Phoenix, AZ 85016, USA
+                     Henan Yuechi Technology Co., Ltd.<br/>
+                    Unit 1, 25th Floor, Vanke Metropolis Tianyueyuan, No. 31 Songshan Road, Erqi District, Zhengzhou City, Henan Province; Suzhou City, JS, 320500, China
         </address>
       </div>
 

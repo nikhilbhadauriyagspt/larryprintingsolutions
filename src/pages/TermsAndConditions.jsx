@@ -206,8 +206,8 @@ export default function TermsAndConditions() {
       <p>In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</p>
       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 my-8 not-prose">
         <address className="not-italic text-slate-700 font-bold leading-relaxed space-y-2 uppercase tracking-tighter">
-          <p className="text-slate-900 font-black">Larry Printing Solutions </p>
-          <p>3106 E Camelback Rd, Phoenix, AZ 85016, USA</p>
+          <p className="text-slate-900 font-black">Henan Yuechi Technology Co., Ltd. </p>
+          <p>Unit 1, 25th Floor, Vanke Metropolis Tianyueyuan, No. 31 Songshan Road, Erqi District, Zhengzhou City, Henan Province; Suzhou City, JS, 320500, China</p>
           
           <p className="pt-4 text-blue-600 font-black lowercase">Email: info@larryprintingsolutions.shop</p>
         </address>

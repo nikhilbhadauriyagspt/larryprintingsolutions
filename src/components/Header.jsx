@@ -137,7 +137,7 @@ export default function Header() {
           {/* Logo Section */}
           <div className="flex items-center gap-1">
             <Link to="/" className="flex items-center p-2 shrink-0">
-              <img src="/logo/logo.png" alt="Larry Printing Solutions" className="h-10 md:h-12 w-auto object-contain brightness-0 invert" />
+              <img src="/logo/logo.png" alt="Larry Printing Solutions" className="h-10 md:h-12 w-auto object-contain" />
             </Link>
           </div>
 

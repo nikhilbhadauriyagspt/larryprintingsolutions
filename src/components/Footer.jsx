@@ -54,16 +54,16 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-slate-900 text-white pt-12 pb-8 font-jakarta">
+    <footer className="bg-[#0091cf] text-white pt-12 pb-8 font-jakarta">
       <div className="w-full px-4 md:px-10">
         
         {/* --- TOP SECTION --- */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-10 pb-10 border-b border-white/10">
           <div className="lg:col-span-4 space-y-4">
             <Link to="/" className="inline-block">
-              <img src="/logo/logo.png" alt="Larry Printing Solutions" className="h-13 w-auto object-contain brightness-0 invert" />
+              <img src="/logo/logo.png" alt="Larry Printing Solutions" className="h-13 w-auto object-contain " />
             </Link>
-            <p className="text-gray-400 text-sm font-medium leading-relaxed max-w-sm">
+            <p className="text-gray-100 text-sm font-medium leading-relaxed max-w-sm">
               Reliable printers and essential supplies for your daily needs. 
               Quality printer and expert support directly to your doorstep.
             </p>
@@ -101,11 +101,11 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <MapPin size={14} className="text-cyan-400 shrink-0 mt-0.5" />
-                <p className="text-[13px] font-medium text-gray-400 leading-relaxed">3106 E Camelback Rd, Phoenix, AZ 85016, USA</p>
+                <p className="text-[13px] font-medium text-gray-100 leading-relaxed">3106 E Camelback Rd, Phoenix, AZ 85016, USA</p>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={14} className="text-cyan-400 shrink-0" />
-                <p className="text-[13px] font-medium text-gray-400">info@larryprintingsolutions.shop</p>
+                <p className="text-[13px] font-medium text-gray-100">info@larryprintingsolutions.shop</p>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {categories.map(cat => (
                 <li key={cat.id}>
-                  <Link to={`/shop?category=${cat.slug}`} className="text-gray-400 hover:text-cyan-400 transition-all text-[13px] font-medium">
+                  <Link to={`/shop?category=${cat.slug}`} className="text-gray-100 hover:text-cyan-400 transition-all text-[13px] font-medium">
                     {cat.name}
                   </Link>
                 </li>
@@ -133,7 +133,7 @@ export default function Footer() {
                 { name: 'Track order', path: '/orders' }
               ].map(item => (
                 <li key={item.name}>
-                  <Link to={item.path} className="text-gray-400 hover:text-cyan-400 transition-all text-[13px] font-medium">
+                  <Link to={item.path} className="text-gray-100 hover:text-cyan-400 transition-all text-[13px] font-medium">
                     {item.name}
                   </Link>
                 </li>
@@ -152,7 +152,7 @@ export default function Footer() {
                 { name: 'Cookie policy', path: '/cookie-policy' }
               ].map(item => (
                 <li key={item.name}>
-                  <Link to={item.path} className="text-gray-400 hover:text-cyan-400 transition-all text-[13px] font-medium">
+                  <Link to={item.path} className="text-gray-100 hover:text-cyan-400 transition-all text-[13px] font-medium">
                     {item.name}
                   </Link>
                 </li>

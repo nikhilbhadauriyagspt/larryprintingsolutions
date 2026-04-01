@@ -132,7 +132,7 @@ export default function Header() {
     <>
       <header className="w-full z-[100] font-sans text-white relative">
         {/* --- TOP ROW: AMAZON STYLE --- */}
-        <div className="bg-slate-900 px-2 md:px-4 py-1.5 flex items-center justify-between gap-2 md:gap-4 h-14 md:h-16">
+        <div className="bg-[#0091cf] px-2 md:px-4 py-1.5 flex items-center justify-between gap-2 md:gap-4 h-14 md:h-16">
           
           {/* Logo Section */}
           <div className="flex items-center gap-1">
@@ -216,14 +216,14 @@ export default function Header() {
           {/* Right Actions */}
           <div className="flex items-center gap-0 md:gap-1 ml-2">
             <Link to={user ? "/profile" : "/login"} className="p-2 hover:outline hover:outline-1 hover:outline-white rounded-sm flex flex-col justify-center min-w-max hidden sm:flex">
-              <span className="text-[11px] text-gray-400 leading-tight">Hello, {user?.name ? user.name.split(' ')[0] : 'sign in'}</span>
+              <span className="text-[11px] text-gray-100 leading-tight">Hello, {user?.name ? user.name.split(' ')[0] : 'sign in'}</span>
               <span className="text-[13px] font-bold leading-tight flex items-center gap-0.5">
                 Account & Lists <ChevronDown size={12} />
               </span>
             </Link>
 
             <Link to="/wishlist" className="p-2 hover:outline hover:outline-1 hover:outline-white rounded-sm flex flex-col justify-center min-w-max hidden md:flex">
-              <span className="text-[11px] text-gray-400 leading-tight">Wishlist</span>
+              <span className="text-[11px] text-gray-100 leading-tight">Wishlist</span>
               <span className="text-[13px] font-bold leading-tight"> & Saved Items</span>
             </Link>
 
@@ -244,7 +244,7 @@ export default function Header() {
         </div>
 
         {/* --- SECOND ROW: SUB NAVIGATION --- */}
-        <div className="bg-cyan-600 px-4 py-1.5 flex items-center gap-4 text-[13px] font-medium relative">
+        <div className="bg-[#0091cf] px-4 py-1.5 flex items-center gap-4 text-[13px] font-medium relative">
             <div className="relative" ref={dropdownRef}>
                 <button 
                   onClick={() => setIsAllDropdownOpen(!isAllDropdownOpen)}

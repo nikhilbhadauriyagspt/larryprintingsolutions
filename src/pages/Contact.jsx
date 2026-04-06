@@ -41,12 +41,15 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-white min-h-screen font-jakarta text-slate-900 overflow-x-hidden ">
+    <div 
+      className="bg-white min-h-screen font-jakarta text-slate-900 overflow-x-hidden "
+      aria-label="Contact Larry Printing Solutions - Expert Printer Support"
+    >
       <SEO 
         title="Contact Us | Larry Printing Solutions" 
         description="Connect with Larry Printing Solutions. Our friendly team is here to help you."
       />
-      
+
       {/* --- HERO HEADER --- */}
       <section className="relative pt-12 pb-16 px-4 md:px-10 bg-gray-50">
         <div className="max-w-[1200px] mx-auto text-center space-y-6">

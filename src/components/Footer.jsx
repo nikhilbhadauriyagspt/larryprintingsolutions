@@ -127,13 +127,13 @@ export default function Footer() {
             <h4 className="text-xs font-bold text-cyan-400">Company</h4>
             <ul className="space-y-2">
               {[
-                { name: 'About us', path: '/about' },
-                { name: 'Contact us', path: '/contact' },
-                { name: 'FAQs', path: '/faq' },
-                { name: 'Track order', path: '/orders' }
+                { name: 'About us', path: '/about', ariaLabel: "About us - Most Reliable Printers & Low Operating Cost Printers for Small Offices" },
+                { name: 'Contact us', path: '/contact', ariaLabel: "Contact us - Printer Troubleshooting Guide for Beginners & How to Fix Printer Error State" },
+                { name: 'FAQs', path: '/faq', ariaLabel: "FAQs - Why Your Printer Is Not Printing & How to Fix Printing Errors Quickly" },
+                { name: 'Track order', path: '/orders', ariaLabel: "Track order - Best All-in-One Printers for Everyday Printing" }
               ].map(item => (
                 <li key={item.name}>
-                  <Link to={item.path} className="text-gray-100 hover:text-cyan-400 transition-all text-[13px] font-medium">
+                  <Link to={item.path} aria-label={item.ariaLabel} className="text-gray-100 hover:text-cyan-400 transition-all text-[13px] font-medium">
                     {item.name}
                   </Link>
                 </li>
@@ -145,14 +145,14 @@ export default function Footer() {
             <h4 className="text-xs font-bold text-cyan-400">Legal</h4>
             <ul className="space-y-2">
               {[
-                { name: 'Privacy policy', path: '/privacy-policy' },
-                { name: 'Terms & conditions', path: '/terms-and-conditions' },
-                { name: 'Return policy', path: '/return-policy' },
-                { name: 'Shipping policy', path: '/shipping-policy' },
-                { name: 'Cookie policy', path: '/cookie-policy' }
+                { name: 'Privacy policy', path: '/privacy-policy', ariaLabel: "Privacy policy - Affordable Wireless Printers for Home and Office" },
+                { name: 'Terms & conditions', path: '/terms-and-conditions', ariaLabel: "Terms & conditions - Best Cheap Printers for Home Use" },
+                { name: 'Return policy', path: '/return-policy', ariaLabel: "Return policy - How to Connect a Printer to Your Computer" },
+                { name: 'Shipping policy', path: '/shipping-policy', ariaLabel: "Shipping policy - How to Fix Printer Paper Jam Issues" },
+                { name: 'Cookie policy', path: '/cookie-policy', ariaLabel: "Cookie policy - How to Print a Test Page" }
               ].map(item => (
                 <li key={item.name}>
-                  <Link to={item.path} className="text-gray-100 hover:text-cyan-400 transition-all text-[13px] font-medium">
+                  <Link to={item.path} aria-label={item.ariaLabel} className="text-gray-100 hover:text-cyan-400 transition-all text-[13px] font-medium">
                     {item.name}
                   </Link>
                 </li>

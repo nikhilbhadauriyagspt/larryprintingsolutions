@@ -35,12 +35,12 @@ export default function Features() {
                 {item.icon}
               </div>
               <div>
-                <h3 className="text-sm font-bold text-slate-900 uppercase tracking-tight">
+                <h5 className="text-sm font-bold text-slate-900 uppercase tracking-tight">
                   {item.title}
-                </h3>
-                <p className="text-gray-500 text-xs font-medium mt-0.5">
+                </h5>
+                <h6 className="text-gray-500 text-[10px] font-medium mt-0.5">
                   {item.desc}
-                </p>
+                </h6>
               </div>
             </div>
           ))}

@@ -5,10 +5,13 @@ import SEO from '@/components/SEO';
 
 const About = () => {
   return (
-    <div className="bg-white min-h-screen font-jakarta text-slate-900 overflow-x-hidden ">
+    <div 
+      className="bg-white min-h-screen font-jakarta text-slate-900 overflow-x-hidden "
+      aria-label="About Larry Printing Solutions - Most Reliable Printers for Home Users - How to Choose the Right Printer for Your Needs - Printer Cost Comparison: Laser vs Inkjet - Low Operating Cost Printers for Small Offices"
+    >
       <SEO 
-        title="About Larry Printing Solutions - Simple and Reliable Printing"
-        description="Learn more about Larry Printing Solutions, our dedication to quality printer, and how we help you with your daily printing needs."
+        title="About Us | Larry Printing Solutions"
+        description="Learn about our mission to provide the most reliable printers for home users and professional printing solutions across the USA."
       />
 
       {/* --- MAIN STORY SECTION --- */}
@@ -16,7 +19,7 @@ const About = () => {
         <div className=" mx-auto space-y-10">
           <div className="space-y-4">
             <h1 className="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight">
-              About Larry Printing Solutions
+              Most Reliable Printers for Home Users
             </h1>
             <div className="h-1 w-20 bg-cyan-500" />
           </div>
@@ -27,7 +30,7 @@ const About = () => {
                 Larry Printing Solutions was started with a simple goal: to make it easier for everyone to find the right printing tools without any confusion. We know that choosing a printer can be hard with all the technical words and different options out there. That is why we focus on selecting only the most reliable and easy-to-use models for our shop.
               </p>
               <p>
-                Whether you are printing important documents for your business, school projects for your children, or beautiful photos for your home, we want to make sure you have a machine that works every time you press print. We don't believe in "fancy" gadgets that break easily; we believe in solid printer that provides value for your money.
+                Whether you are printing important documents for your business, school projects for your children, or beautiful photos for your home, we want to make sure you have a machine that works every time you press print. We provide low operating cost printers for small offices that provide value for your money.
               </p>
               <p>
                 Our team spends a lot of time testing different brands and models to see which ones are actually the best for daily use. We look at how easy they are to set up, how long the ink lasts, and how well they handle different types of paper. If it doesn't meet our standards for reliability, we don't sell it.
@@ -65,11 +68,11 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div className="space-y-6">
               <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-                <Info size={20} className="text-cyan-600" /> Choosing the right printer
+                <Info size={20} className="text-cyan-600" /> How to Choose the Right Printer for Your Needs
               </h3>
               <div className="space-y-4 text-sm md:text-base text-slate-600 leading-relaxed">
                 <p>
-                  Most people ask us whether they should get an Inkjet or a Laser printer. We explain it simply: Inkjet printers are usually better if you print a lot of photos or colorful documents at home. They are compact and great for daily creative tasks.
+                  <strong>Printer Cost Comparison: Laser vs Inkjet</strong> - Most people ask us whether they should get an Inkjet or a Laser printer. We explain it simply: Inkjet printers are usually better if you print a lot of photos or colorful documents at home. They are compact and great for daily creative tasks.
                 </p>
                 <p>
                   Laser printers are built for speed and large amounts of text. If you have a home office or a small business where you print hundreds of pages of black-and-white documents, a laser printer will save you a lot of time and money in the long run.

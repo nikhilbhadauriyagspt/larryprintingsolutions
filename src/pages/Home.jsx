@@ -86,7 +86,7 @@ export default function Home() {
     <div className="bg-white font-jakarta overflow-x-hidden text-slate-900">
       <SEO 
         title="Larry Printing Solutions | Quality Printers & Printer"
-        description="Your trusted source for high-quality printers and printing printer. Delivering excellence across the USA."
+        description="Find the best all-in-one printers for everyday printing, affordable wireless printers, and budget-friendly options for home and office at Larry Printing Solutions."
       />
 
       <Hero />
@@ -99,7 +99,7 @@ export default function Home() {
       <ProductGrid products={data.mixedArrivals.slice(0, 18)} />
       
       <CategorySlider 
-        title="Office Printers"  
+        title="Best Printers for Everyday Printing"  
         products={data.printers} 
       />
        

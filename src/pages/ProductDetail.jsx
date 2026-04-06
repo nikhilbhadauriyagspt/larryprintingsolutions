@@ -108,7 +108,10 @@ export default function ProductDetail() {
   const mainImage = images.length > 0 ? images[activeImage] : "https://via.placeholder.com/600x600?text=No+Image";
 
   return (
-    <div className="bg-white min-h-screen pt-32 pb-24 font-jakarta text-slate-900 overflow-x-hidden">
+    <div 
+      className="bg-white min-h-screen pt-32 pb-24 font-jakarta text-slate-900 overflow-x-hidden"
+      aria-label={`${product.name} - Best Printers for Home Use`}
+    >
       <SEO title={`${product.name} | Larry Printing Solutions`} description={product.description?.substring(0, 160)} />
       
       <div className="max-w-[1400px] mx-auto px-4 md:px-10">

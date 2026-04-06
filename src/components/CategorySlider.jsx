@@ -35,7 +35,7 @@ export default function CategorySlider({ title, products = [] }) {
         <div className="flex items-center justify-between mb-10">
           <div>
             <h2 className="text-xl md:text-2xl font-bold text-slate-900 tracking-tight uppercase">
-              {title.split(' ')[0]} <span className="text-cyan-600">{title.split(' ')[1] || ''}</span>
+              {title}
             </h2>
             <div className="h-1 w-12 bg-cyan-500 mt-1" />
           </div>

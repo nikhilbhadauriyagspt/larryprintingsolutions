@@ -100,19 +100,22 @@ export default function Shop() {
   return (
     <div className="bg-white min-h-screen font-jakarta text-slate-900 overflow-x-hidden ">
       <SEO 
-        title="Shop Collections | Larry Printing Solutions" 
-        description="Browse our curated selection of high-performance printers and professional printer."
+        title="Shop | Larry Printing Solutions" 
+        description="Explore our wide range of the best color printers for home and office, along with personal printers for daily use. High-quality printing solutions at affordable prices."
       />
 
       {/* --- SIMPLE HEADER --- */}
-      <section className="py-10 px-4 md:px-10 border-b border-gray-100 bg-gray-50">
+      <section 
+        className="py-10 px-4 md:px-10 border-b border-gray-100 bg-gray-50"
+        aria-label="Best Color Printers for Home and Office - Affordable Wireless Printers - Best All-in-One Printers for Everyday Printing - Low Operating Cost Printers for Small Offices"
+      >
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight uppercase">
-              All <span className="text-cyan-600">Products</span>
+              Best <span className="text-cyan-600"> Printers</span>
             </h1>
             <div className="h-1 w-12 bg-cyan-500 mt-1" />
-            <p className="text-gray-500 text-xs font-bold uppercase tracking-widest mt-3">Showing {products.length} printing solutions</p>
+            <p className="text-gray-500 text-xs font-bold uppercase tracking-widest mt-3">Showing {products.length} affordable wireless printers</p>
           </div>
           
           <div className="flex items-center gap-3 overflow-x-auto pb-2 no-scrollbar max-w-full">

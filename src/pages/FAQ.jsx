@@ -65,10 +65,13 @@ export default function FAQ() {
   const filteredFaqs = faqs.find(f => f.category === activeCategory)?.questions || [];
 
   return (
-    <div className="bg-white min-h-screen font-jakarta text-slate-900 overflow-x-hidden ">
+    <div 
+      className="bg-white min-h-screen font-jakarta text-slate-900 overflow-x-hidden "
+      aria-label="Printer Troubleshooting & Common Questions - Why Your Printer Is Not Printing - Printer Connected but Not Printing - How to Fix Printer Error State - Printer Maintenance Tips for Better Performance"
+    >
       <SEO 
-        title="FAQ | Larry Printing Solutions" 
-        description="Find simple answers to your questions about printers, delivery, and support."
+        title="FAQ & Help Center | Larry Printing Solutions" 
+        description="Find simple answers to your questions about orders, shipping, and our reliable selection of printers."
       />
 
       {/* --- HERO HEADER --- */}

@@ -29,6 +29,7 @@ const Hero = () => {
 
   return (
     <section className="w-full bg-white pt-10 ">
+      <h1 className="hidden">Best Printers for Home Use & Professional Printing Solutions</h1>
       <div className="w-full  h-[400px] md:h-[750px]">
         <div className="relative w-full h-full overflow-hidden  shadow-sm group">
           {/* --- SLIDES --- */}

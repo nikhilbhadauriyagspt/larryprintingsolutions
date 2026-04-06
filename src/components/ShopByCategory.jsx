@@ -95,9 +95,9 @@ export default function ShopByCategory({ categories = [] }) {
 
                   {/* Label */}
                   <div className="text-center">
-                    <h4 className="text-[11px] font-bold text-slate-800 group-hover:text-cyan-600 transition-colors uppercase tracking-tight line-clamp-1 px-1">
+                    <h3 className="text-[11px] font-bold text-slate-800 group-hover:text-cyan-600 transition-colors uppercase tracking-tight line-clamp-1 px-1">
                       {item.name}
-                    </h4>
+                    </h3>
                   </div>
                 </Link>
               </SwiperSlide>

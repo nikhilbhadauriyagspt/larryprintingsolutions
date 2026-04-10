@@ -1,37 +1,29 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Assets
-import banner3 from '@/assets/bannerr/banner6.png'; 
+import banner1 from '@/assets/bannerr/banner01.png'; 
 import banner2 from '@/assets/bannerr/newban2.png';
-import banner1 from '@/assets/bannerr/banner01.png';
+import banner3 from '@/assets/bannerr/banner6.png';
 
-
-const Hero = () => {
+const Hero2 = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
+    { id: 1, image: banner1, link: "/shop" },
     { id: 2, image: banner2, link: "/shop" },
-    
-    { id: 4, image: banner1, link: "/shop" }
+    { id: 3, image: banner3, link: "/shop" }
   ];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, [slides.length]);
 
   const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <section className="w-full bg-white pt-10 ">
+    <section className="w-full bg-white pt-10">
       <h1 className="hidden">Best Printers for Home Use & Professional Printing Solutions</h1>
-      <div className="w-full  h-[400px] md:h-[750px]">
-        <div className="relative w-full h-full overflow-hidden  shadow-sm group">
+      <div className="w-full h-[400px] md:h-[750px]">
+        <div className="relative w-full h-full overflow-hidden shadow-sm group">
           {/* --- SLIDES --- */}
           {slides.map((slide, index) => (
             <Link
@@ -81,4 +73,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero2;

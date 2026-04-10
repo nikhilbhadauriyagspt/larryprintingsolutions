@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 export default function SEO({ title, description, keywords, schemaType = "Website" }) {
   useEffect(() => {
     // Update Title
-    const baseTitle = "Larry Printing Solutions";
-    const fullTitle = title ? `${title} | ${baseTitle}` : baseTitle;
+    const baseTitle = "";
+    const fullTitle = title ? `${title}  ${baseTitle}` : baseTitle;
     document.title = fullTitle;
 
     // Update Description

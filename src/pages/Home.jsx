@@ -1,4 +1,5 @@
-import Hero from "@/components/Hero";
+// import Hero from "@/components/Hero";
+import Hero2 from "@/components/Hero2";
 import TopShowcase from "@/components/TopShowcase";
 import SEO from "@/components/SEO";
 import Collections from "@/components/Collections";
@@ -85,11 +86,11 @@ export default function Home() {
   return (
     <div className="bg-white font-jakarta overflow-x-hidden text-slate-900">
       <SEO 
-        title="Larry Printing Solutions | Quality Printers & Printer"
+        title="Printer & Scanner Solutions"
         description="Find the best all-in-one printers for everyday printing, affordable wireless printers, and budget-friendly options for home and office at Larry Printing Solutions."
       />
 
-      <Hero />
+      <Hero2 />
       <TopShowcase products={data.all} />
 
       <ShopByCategory categories={data.categories} />
